@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/svg"  href="./img/stack-of-books.png" />
+    <title>Literary Loft</title>
+  </head>
+  <body>
+    <!-- Header Start  -->
+    <header class="header">
+      <!-- Header 1 Start  -->
+      <div class="header-1">
+        <a href="#" class="logo"><i class="fas fa-book"></i> Literary Loft</a>
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="Search..."
+            id="search-box"
+          />
+          <label for="search-box" type="submit" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart-circle-check"></a>
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a id="login-btn" class="fa-solid fa-user" href="./login.html"></a>
+        </div>
+      </div>
+      <!-- Header 1 End -->
+
+      <!-- Header 2 Start -->
+      <div class="header-2">
+        <div class="navbar">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#populer">Populer</a>
+          <a href="#member">Member</a>
+          <a href="#new">New</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#blogs">Blogs</a>
+        </div>
+      </div>
+      <!-- Header 2 End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Bottom Navbar Start -->
+    <div class="bottom-navbar">
+      <a href="#home" class="fas fa-home"></a>
+      <a href="#about" class="fas fa-people-group"></a>
+      <a href="#populer" class="fas fa-fire"></a>
+      <a href="#member" class="fas fa-user-plus"></a>
+      <a href="#new" class="fas fa-book-bookmark"></a>
+      <a href="#reviews" class="fas fa-star"></a>
+      <a href="#blogs" class="fas fa-newspaper"></a>
+    </div>
+    <!-- Bottom Navbar End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>Where Stories Soar</h3>
+          <p>
+            At Literary Loft, we believe that every book has the power to elevate and inspire. Nestled in a cozy, welcoming space, our bookstore offers a carefully curated selection of books across all genres, from timeless classics to contemporary gems. 
+            Whether you're a seasoned bibliophile or just discovering the joy of reading, you'll find something to captivate your imagination and broaden your horizons.
+          </p>
+          <a href="#populer" class="btn">Shop Now !</a>
+        </div>
+
+        <div class="swiper books-slider">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide"
+              ><img src="./img/dune.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="./img/the great gatsby.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="./img/to kill a mocking bird.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="./img/lotr.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="./img/cucko.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="./img/tess.jpg" alt=""
+            /></a>
+          </div>
+          <img src="./img/stand.png" class="stand" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Us Start -->
+    <section id="about" class="about">
+      <div class="container">
+        <h1>WHY CHOOSE US?</h1>
+        <div class="row">
+          <div class="image">
+            <img src="./img/img4.svg" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Personalized Recommendations</h3>
+            <p>
+              Our passionate and knowledgeable staff is always ready to help you find your next favorite book. 
+              Whether you're looking for something specific or seeking a new adventure, we provide personalized recommendations tailored to your preferences.
+            </p>
+            <p>
+              In addition to popular titles, we offer a selection of unique and local books, including works by independent authors and publishers. 
+              Discover hidden gems and support local talent at Literary Loft.
+            </p>
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shield"></i>
+                <span>save delivery</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-wallet"></i>
+                <span>easy payments</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 service</span>
+              </div>
+            </div>
+            <a href="./404Error.html" class="btn">learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us End -->
+
+    <!-- Popular Book Start -->
+    <section class="populer" id="populer">
+      <h1 class="heading"><span> Popular Books </span></h1>
+      <div class="swiper populer-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/dune.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Dune</h3>
+              <div class="price">Rp199.000<span>Rp229.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/cmbyn.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Call Me By Your Name</h3>
+              <div class="price">Rp226.000 <span>Rp.249.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/normal.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Normal People</h3>
+              <div class="price">Rp220.000 <span>Rp250.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/little women.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Little Women</h3>
+              <div class="price">Rp275.000 <span>Rp299.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/to kill a mocking bird.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>To Kill a Mockingbird</h3>
+              <div class="price">Rp295.000<span>Rp349.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/dalloway.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Mrs. Dalloway</h3>
+              <div class="price">Rp249.000<span>Rp269.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/india.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>A Passage to India</h3>
+              <div class="price">Rp399.000<span>R429.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/clockwork.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>A Clockwork Orange</h3>
+              <div class="price">Rp285.000<span>Rp299.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#populer" class="fas fa-search"></a>
+              <a href="#populer" class="fas fa-heart-circle-plus"></a>
+              <a href="#populer" class="fas fa-info"></a>
+            </div>
+            <div class="image">
+              <img src="./img/ove.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>A Man Called Ove</h3>
+              <div class="price">Rp229.000<span>Rp249.000</span></div>
+              <a href="#populer" class="btn">Add To Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- Popular Book End -->
+
+    <!-- Member Start -->
+    <section id="member" class="member">
+      <div class="container">
+        <h1>BECOME A MEMBER!</h1>
+        <div class="row">
+          <div class="content">
+            <h3>
+              Join Our <span>Member</span> And<br />
+              Get Notify For <span>New Updates!</span>
+            </h3>
+            <p>
+              Be the first to know about new arrivals, special promotions, and upcoming events. 
+              As a member, you'll receive timely updates directly to your inbox, ensuring you never miss out on the latest releases and exciting happenings at Literary Loft.
+            </p>
+            <p>
+              Enjoy special discounts on a wide range of books and merchandise. 
+              Our members receive exclusive offers and promotions, making it even more rewarding to indulge in your love for reading.
+            </p>
+            <form action="">
+              <input
+                type="email"
+                name=""
+                placeholder="Enter your email..."
+                id=""
+                class="box"
+                required
+              />
+              <input type="submit" value="get notify" class="btn" />
+              <a href="./member.html" class="btn">Join Member</a>
+            </form>
+          </div>
+          <div class="image">
+            <img src="./img/img5.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Member End -->
+
+    <!-- New Book Start -->
+    <section class="new" id="new">
+      <h1 class="heading"><span>New Books</span></h1>
+
+      <!-- New Books  Section 1 Starts-->
+      <div class="swiper new-slider">
+        <div class="swiper-wrapper">
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/handmaid.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Handmaid's Tale</h3>
+              <div class="price">Rp179.000<span>Rp199.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/alchemist.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Alchemist</h3>
+              <div class="price">219.000<span>Rp239.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/life of pi.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Life of Pi</h3>
+              <div class="price">Rp179.000<span>Rp199.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/davinci.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Da Vinci Code</h3>
+              <div class="price">189.000<span>Rp199.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/the help.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Help</h3>
+              <div class="price">Rp149.000<span>Rp169.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- New Books Section 1 End -->
+
+      <!-- New Books Section 2 Start  -->
+      <div class="swiper new-slider-2">
+        <div class="swiper-wrapper">
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/thief.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Book Thief</h3>
+              <div class="price">Rp299.000<span>Rp349.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/gone girl.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Gone Girl</h3>
+              <div class="price">Rp149.000<span>Rp179.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/geisha.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Memoirs of Geisha</h3>
+              <div class="price">Rp179.000<span>Rp199.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/1984.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>1984</h3>
+              <div class="price">Rp119.000<span>Rp149.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="#new" class="swiper-slide box">
+            <div class="image">
+              <img src="./img/tfios.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Fault in Our Stars</h3>
+              <div class="price">Rp139.000<span>Rp149.000</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- New Books Section 2 End-->
+    </section>
+    <!-- New Book End -->
+
+    <!-- Review Start -->
+    <section class="reviews" id="reviews">
+      <h1>client's reviews</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left quote"></i>
+            <p>
+              I've been using Literary Loft for all my e-book needs, and I couldn't be happier. The selection is vast, covering everything from bestsellers to indie gems. 
+              The website is easy to navigate, and the download process is seamless. I love how I can find great reads at great prices! I will recommend it to my friends.
+            </p>
+            <div class="content">
+              <div class="info">
+                <div class="name">Ghatfhan Ramadhan</div>
+                <div class="job">Student</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./img/ghatfhan.enc" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left quote"></i>
+            <p>
+              Literary Loft has become my go-to e-book store. The customer support team is amazing—always ready to help and provide recommendations based on my reading preferences. 
+              The personalized suggestions have introduced me to authors I wouldn't have discovered otherwise.
+            </p>
+            <div class="content">
+              <div class="info">
+                <div class="name">Faris</div>
+                <div class="job">YouTuber</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./img/faris.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left quote"></i>
+            <p>
+              Literary Loft is my favorite place to find e-books at great prices. They always have amazing deals, and the process of purchasing and downloading e-books is incredibly smooth. 
+              I love how I can access my purchases across all my devices, making it super convenient to read wherever I am.
+            </p>
+            <div class="content">
+              <div class="info">
+                <div class="name">Adrian</div>
+                <div class="job">Programmer</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./img/adrian.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left quote"></i>
+            <p>
+              As someone who loves reading on the go, Literary Loft is perfect for me. The e-book library is extensive, with something for everyone. I appreciate the detailed descriptions and reviews available for each book, which make it easy to choose my next read. 
+              The regular discounts and promotions are a bonus!
+            </p>
+            <div class="content">
+              <div class="info">
+                <div class="name">Andaru</div>
+                <div class="job">Freelancer</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./img/andaru.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left quote"></i>
+            <p>
+              I've been impressed with the diversity of genres available at Literary Loft. 
+              Whether I'm in the mood for a mystery, romance, or non-fiction, I always find quality titles that exceed my expectations. 
+              The website's interface is user-friendly, and I appreciate the curated lists that help me discover new reads. 
+            </p>
+            <div class="content">
+              <div class="info">
+                <div class="name">Rendy</div>
+                <div class="job">Doctor</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="image">
+                <img src="./img/rendt.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review End -->
+
+    <!-- Blogs Start -->
+    <section class="blogs" id="blogs">
+      <div class="container">
+        <h1 class="heading"><span>our daily posts</span></h1>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Exploring Fiction: The Art of Storytelling in Modern Literature</h3>
+              <p>
+                Discover the diverse narrative styles and themes shaping contemporary fiction.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i> June 9, 2024 </span>
+                <span> <i class="fas fa-user"></i>Xenophilius Lovegood</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Romance Reads: Heartwarming E-books to Fall in Love With</h3>
+              <p>
+                Delve into tales of love and passion with our curated collection of romance e-books.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i> June 30, 2024</span>
+                <span> <i class="fas fa-user"></i>Severus Snape</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Mystery & Thriller: Unraveling the Best Page-Turners</h3>
+              <p>
+                Get hooked on gripping mysteries and thrilling stories that keep you on the edge of your seat.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>July 2, 2024</span>
+                <span> <i class="fas fa-user"></i>Albus Dumbledore</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Sci-Fi & Fantasy: Journey to Other Worlds Through E-books</h3>
+              <p>
+                Embark on epic adventures in fantastical realms and futuristic landscapes.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>July 10, 2024 </span>
+                <span> <i class="fas fa-user"></i>Hermione Granger</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Historical Fiction: Captivating Tales from the Past</h3>
+              <p>
+                Travel back in time with stories that bring historical events and eras to life.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>July 22, 2024 </span>
+                <span> <i class="fas fa-user"></i>Minerva McGonagall</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Non-Fiction Nuggets: E-books to Expand Your Knowledge</h3>
+              <p>
+                Broaden your horizons with insightful non-fiction e-books on a wide range of topics.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>July 30, 2024</span>
+                <span> <i class="fas fa-user"></i>Ronald Weasley</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 7.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Young Adult Gems: Must-Read E-books for Teens and Beyond</h3>
+              <p>
+                Explore captivating YA novels that resonate with readers of all ages.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>August 5, 2024</span>
+                <span> <i class="fas fa-user"></i>Sirius Black</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 8.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Poetry and Prose: Discover the Beauty of Words</h3>
+              <p>
+                Experience the power of language through our selection of poetry and prose e-books.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>August 17, 2024</span>
+                <span> <i class="fas fa-user"></i>Remus Lupin</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="./img/poster 9.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>The Latest in News and Current Affairs: E-books for the Informed Reader</h3>
+              <p>
+                Stay informed with in-depth analyses and reports on current events and global issues.
+              </p>
+              <a href="./404Error.html" class="btn">read more</a>
+              <div class="icons">
+                <span> <i class="fas fa-calendar"></i>August 20, 2024</span>
+                <span> <i class="fas fa-user"></i>Peter Petigrew</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="load-more">load more</div>
+      </div>
+    </section>
+    <!-- Blogs End -->
+
+    <!-- Footer Start -->
+    <footer class="footer" id="footer">
+      <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>
+              Join our community of book lovers and embark on a journey through the endless possibilities of the written word. 
+              At Literary Loft, we're more than just an e-bookstore; we're a haven for those who cherish the art of storytelling. 
+              Discover new worlds, explore different perspectives, and find inspiration with every page you turn.
+            </p>
+            <br />
+            <p>
+              Thank you for choosing Literary Loft, where every book is a new adventure waiting to be explored.
+            </p>
+            <div class="social">
+              <a href="#footer"><span class="fab fa-facebook-f"></span></a>
+              <a href="#footer"><span class="fab fa-twitter"></span></a>
+              <a href="#footer"><span class="fab fa-instagram"></span></a>
+              <a href="#footer"><span class="fa-brands fa-youtube"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Meganthropus Ave.</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+62 812 1194 6557</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">literaryloft@mail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Contact us</h2>
+          <div class="content">
+            <form action="">
+              <div class="email">
+                <div class="text">Email</div>
+                <input type="email"placeholder="Email address..." required />
+              </div>
+              <div class="msg">
+                <div class="text">Message</div>
+                <input type="text" placeholder="Your message..." required /></input>
+              </div>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+          <span class="credit"
+            >Copyright <span class="far fa-copyright"></span
+              > 2022
+          </span>
+          <span> <a href="https://github.com/septiandyy" target="_blank">Septiandy</a> | All rights reserved.</span>
+      </div>
+    </footer>
+    <!-- Footer End  -->
+
+    <!-- Loader Start-->
+    <div class="loader-container">
+      <!-- Gif Source Link: https://tenor.com/view/gb-notebook-laptop-gif-17733403 -->
+      <img src="./img/mainLoader.gif" alt="">
+    </div>
+    <!-- Loader End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
